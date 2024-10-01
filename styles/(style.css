@@ -67,7 +67,7 @@
 }
 
 .apresentacao{
-    gap: 65px;
+    gap: 1svw;
     padding: 5% 15% 15% 10%;
     display: flex;
     align-items: center;
