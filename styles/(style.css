@@ -192,10 +192,12 @@
     position: inherit;
     width: 3.5rem;
     transition: all ease-in-out 0.15s;
+    padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+    /* cima, direita, baixo, esquerda - Padding*/
 }
 
 .apresentacao__icons__imagens:hover{
-    width: 4rem;
+    width: 3.75rem;
 }
 
 .apresentacao__icons__navegacao{
@@ -203,6 +205,10 @@
     justify-content: space-evenly;
     padding: 21.5px 0 ;
     transition: all ease-in-out 0.15s;
+    border: solid #201d1d 4px;
+    border-radius: 100%;
+    border-right: #201d1d thin;
+    border-top: #201d1d medium;
 }
 
 .container-slider{
@@ -493,5 +499,5 @@ input[type="password" i]{
     .apresentacao__imagem{
         width: 0px;
     }
-    
+
 }
