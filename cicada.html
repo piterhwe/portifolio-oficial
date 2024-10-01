@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://fonts.googleapis.com/css2?family=Martian+Mono&amp;display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>?</title>
+    <link rel="stylesheet" href="./styles/(style.css">
+    <link type="image/png" href="https://i.imgur.com/1RCPhrE.png" rel="shortcut icon">
+</head>
+<body>
+    <header class="cabecalho" draggable="false">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html" draggable="false">
+                Home
+            </a>
+            <a class="cabecalho__menu__link" href="about.html" draggable="false">
+                Sobre mim
+            </a>
+            <a class="cabecalho__menu__link" href="projetos.html" draggable="false">
+                Projetos
+            </a>
+            <a class="cabecalho__menu__link__toaq" draggable="false">
+                <strong class="cv-block">CV (Curriculum Vitae)</strong>
+            </a>
+        </nav>
+    </header>
+
+    <main class="apresentacao">
+
+        <style>
+            form{
+                text-align: center;
+                width: 300px;
+                margin: 200px auto;
+                margin-bottom: -225px;
+            }
+
+            input{
+                display: block;
+                margin: 10px auto;
+                width: 250px;
+                height: 30px;
+            }
+        </style>
+
+        <form>
+            <h3 class="login-text">???</h3>
+            <input type="text" placeholder="Usuário" id="login" class="login">
+            <input type="password" placeholder="Senha" id="pw" class="pw">
+            <input type="submit" onclick="logar(); return false" class="button-submit">
+        </form>
+
+        <form>
+            <h3 class="login-text">Admin</h3>
+            <input type="text" placeholder="Usuário" id="login_a" class="login">
+            <input type="password" placeholder="Senha" id="pw_a" class="pw">
+            <input type="submit" onclick="logar_a(); return false" class="button-submit">
+        </form>
+
+        <script>
+
+            function logar(){
+                var login = document.getElementById('login').value;
+                var pw = document.getElementById('pw').value;
+
+                if(login == "Cigarra" && pw == "3301"){
+                    alert('Bem-Vindo!');
+                    location.href = "VVRKc2FsbFhVbWhOZWsxM1RWRTlQUT09.html";
+                    
+                }else{
+                    alert('Você não pertence à este lugar')
+                }
+            }
+
+        </script>
+
+        <script>
+
+            function logar_a(){
+                var login = document.getElementById('login_a').value;
+                var pw = document.getElementById('pw_a').value;
+
+                if(login == "Curriculo Admin" && pw == "751469823"){
+                    alert('Acesso Liberado');
+                    location.href = "curriculo.html";
+                    
+                }else{
+                    alert('Usuário ou senha incorretos')
+                }
+            }
+
+        </script>
+
+    </main>
+    
+    <footer class="rodape-estranho-2">
+        <p>
+            Desenvolvido por Pedro Kibelkstis
+        </p>
+    </footer>
+</body>
+</html>
+
+<!---- ???
+    User: a cicada brasileira
+    Password: número? q número?
+---->
