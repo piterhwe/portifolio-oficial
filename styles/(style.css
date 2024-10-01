@@ -490,4 +490,8 @@ input[type="password" i]{
         flex-direction: column;
     }
 
+    .apresentacao__imagem{
+        width: 0px;
+    }
+    
 }
