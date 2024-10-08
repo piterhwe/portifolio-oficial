@@ -79,6 +79,7 @@
     display: flex;
     flex-direction: column;
     gap: 90px;
+    padding: 0 6rem 0 0;
 }
 
 .apresentacao__conteudo__titulo{
@@ -185,66 +186,68 @@
 .apresentacao__icons{
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 1rem;
 }
 
 .apresentacao__icons__imagens{
     position: inherit;
-    width: 3.5rem;
+    width: 2.5rem;
     transition: all ease-in-out 0.15s;
     padding: 0.2rem 1.5rem 0.2rem 1.5rem;
     /* cima, direita, baixo, esquerda - Padding*/
 }
 
 .apresentacao__icons__imagens:hover{
-    width: 3.75rem;
+    width: 3rem;
 }
 
 .apresentacao__icons__navegacao{
     display: flex;
     justify-content: space-evenly;
-    padding: 21.5px 0 ;
+    padding: 10.5px 0px;
     transition: all ease-in-out 0.15s;
     border: solid #201d1d 4px;
-    border-radius: 100%;
+    border-radius: 25px;
     border-right: #201d1d thin;
     border-top: #201d1d medium;
+    text-decoration: none;
+    color: var(--second-color);
+    font-family: var(--second-font);
+    align-items: center;
+    gap: 10px;
+
 }
 
-.container-slider{
+/*Aba Projetos*/
+.container_slider{
     display: flex;
     width: 100%;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    position: relative;
     gap: 1rem;
-    top: -375px;
-    left: -295px;
-    margin-bottom: -100px;
 }
 
-.container-images{
-    position: relative;
+.container_images{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1150px;
+    width: 750px; /*Tamanho Imagens Slider... n me pergunte o pq o cara do tutorial fez assim, mas tá servindo*/
 }
 
 .slider{
     opacity: 0;
-    transition: opacity .2s;
+    transition: all 2s;
     position: absolute;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .on{
     opacity: 1;
 }
 
-#prev-button, #next-button{
+#prev_button, #next_button{
     width: 30px;
     height: 30px;
     border: none;
@@ -252,14 +255,16 @@
     cursor: pointer;
 }
 
-#prev-button img, #next-button img{
+#prev_button img, #next_button img{
     width: 100%;
     height: 100%;
 }
 
-#prev-button{
+#prev_button{
     transform: rotate(180deg);
-}   
+}
+/*End*/
+
 
 .apresentacao__conteudo__3d__textos{
     position: relative;
